@@ -43,4 +43,7 @@ export COMMANDLINE_ARGS="--skip-torch-cuda-test --no-half"
 # Uncomment to enable accelerated launch
 #export ACCELERATE="True"
 
+# Uncomment to disable TCMalloc
+#export NO_TCMALLOC="True"
+
 ###########################################
