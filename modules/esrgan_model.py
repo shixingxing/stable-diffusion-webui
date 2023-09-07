@@ -121,7 +121,7 @@ def infer_params(state_dict):
 class UpscalerESRGAN(Upscaler):
     def __init__(self, dirname):
         self.name = "ESRGAN"
-        self.model_url = "https://github.com/cszn/KAIR/releases/download/v1.0/ESRGAN.pth"
+        self.model_url = "https://ghproxy.com/https://github.com/cszn/KAIR/releases/download/v1.0/ESRGAN.pth"
         self.model_name = "ESRGAN_4x"
         self.scalers = []
         self.user_path = dirname
